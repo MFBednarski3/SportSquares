@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="mainScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SportSquares.SquaresController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="289.0" minWidth="10.0" prefWidth="30.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1041.0" minWidth="10.0" prefWidth="970.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="724.0" minHeight="10.0" prefHeight="702.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="724.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane fx:id="SquaresBoard" gridLinesVisible="true" prefHeight="418.0" prefWidth="698.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="16.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="225.0" layoutY="16.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="312.0" layoutY="16.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="399.0" layoutY="16.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="486.0" layoutY="16.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="573.0" layoutY="16.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="660.0" layoutY="16.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="747.0" layoutY="16.0" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="834.0" layoutY="16.0" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="936.0" layoutY="16.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="80.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="144.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="207.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="271.0" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="335.0" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="398.0" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="461.0" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="524.0" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="587.0" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <TextField editable="false" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="98.0" layoutY="74.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="186.0" layoutY="74.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="98.0" layoutY="138.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="450.0" layoutY="201.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+            <TextField editable="false" layoutX="891.0" layoutY="265.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="450.0" layoutY="392.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="274.0" layoutY="644.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+            <TextField editable="false" layoutX="10.0" layoutY="10.0" prefHeight="66.0" prefWidth="88.0" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnPrint" alignment="CENTER" mnemonicParsing="false" onAction="#print" text="Print" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Label fx:id="team1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label fx:id="team2" minWidth="-Infinity" rotate="270.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+   </children>
+</GridPane>
