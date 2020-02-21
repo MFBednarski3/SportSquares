@@ -7,7 +7,7 @@ For example, if team 1 had a score of 20 and team 2 had a score of 17, the perso
 Since choosing squares can be hard, why not have a program do it? 
 
 ## How to run this program
-1. Please note that this program uses **JavaSE-12** and **JaxaFX13**. If you have problems running it, make sure your Java is up to date.
+1. You must have **JDK 13.0.1** or higher in order to run this. Also make sure your **JAVA_HOME** enviroment variable is up to date.
 2. This program uses Gradle as the build automator. If you don't have Gradle, you can download it for free [right here](https://gradle.org/)
 3. Inside where you have placed the contents, use a terminal or command line prompt to go to that directory. You can then type in `gradle clean` and `gradle build`.
 4. You can run the program from there by using `gradle run`. If you want a distribution copy, go to *build/distributions* and choose either the *.tar* or *.zip*
